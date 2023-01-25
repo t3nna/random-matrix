@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.matrix{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.matrix-row{
+  display: flex;
+  gap: 1.5rem;
+}
+
+.matrix-row span{
+  width: 4rem;
+  height:4rem;
+  background-color: red;
+  border-radius: .75rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /*text-align: center;*/
+
+
+  /*vertical-align: center;*/
+}
