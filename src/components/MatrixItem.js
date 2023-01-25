@@ -5,7 +5,7 @@ function MatrixItem({item}) {
         <li className={'matrix-row'}>
             {
                 item.map((item, index) => (
-                    <span key={index}>{item}</span>
+                    <span key={index} style={item===1? {background: 'red'} :{background: 'blue'} }>{item}</span>
                 ))
             }
         </li>
